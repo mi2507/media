@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<lang lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <title>Imersão Dev Alura</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <h1 class="page-title">
+                Calculadora de média</h1>
+            <p class="page-subtitle">
+                Descubra qual a sua média de nota de todas as provas!
+            </p>
+            <img src="./img/2475860.jpg" class="page-logo" alt="">
+
+            <!-- <img class="page-calc" src="https://image.flaticon.com/icons/png/512/201/201635.png"> -->
+            <a href="https://alura.com.br/" target="_blank">
+                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+            </a>
+            <div class="page-notes">
+                <p>Digite a nota do primeiro bimestre:</p>
+                <label class="page-value">Valor</label>
+                <input class="page-input" type="text" maxlength="2" id="valorUm">
+                <p>Digite a nota do segundo bimestre:</p>
+                <label class="page-value">Valor</label>
+                <input class="page-input" type="text" maxlength="2" id="valorDois">
+                <p>Nota final do semestre:</p>
+                <label class="page-value">Valor</label>
+                <button class="page-calc" onclick="media()">Calcular Média</button>
+                <p id="aprovado"></p>
+                <p id="reprovado"></p>
+            </div>
+        </div>  
+    </body>
+    <script src="./index.js"></script>
+
+    </html>
