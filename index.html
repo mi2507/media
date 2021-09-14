@@ -8,10 +8,8 @@
         <link rel="stylesheet" href="./style.css">
         <title>Imersão Dev Alura</title>
     </head>
-
     <body>
         <div class="container">
-
             <h1 class="page-title">
                 Calculadora de média</h1>
             <p class="page-subtitle">
@@ -21,9 +19,19 @@
             <a href="https://alura.com.br/" target="_blank">
                 <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
             </a>
+            <div class="page-custom-select">
+                <select class="page-select">
+                    <option value="0">Selecione a Matéria:</option>
+                    <option value="1">Lógica de Programação</option>
+                    <option value="2">Engenharia de Software</option>
+                    <option value="3">Banco de Dados</option>
+                    <option value="4">IOT</option>
+                    <option value="5">Automação de Testes</option>
+                </select>
+            </div>
             <div class="page-notes">
                 <p>Digite a nota do primeiro bimestre:</p>
-                <label class="page-value">Valor</label>
+                <label class="page-value" id="teste">Valor</label>
                 <input class="page-input" type="text" maxlength="2" id="valorUm">
                 <p>Digite a nota do segundo bimestre:</p>
                 <label class="page-value">Valor</label>
@@ -34,8 +42,8 @@
                 <p id="aprovado"></p>
                 <p id="reprovado"></p>
             </div>
-        </div>  
+            <button class="page-novo-calculo" onClick="window.location.reload();">Novo cálculo</button>
+        </div>
     </body>
     <script src="./index.js"></script>
-
     </html>

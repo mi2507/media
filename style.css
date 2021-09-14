@@ -21,9 +21,17 @@ body {
   color: #ffffff;
   margin-top: 5px;
 }
+.page-custom-select{
+  margin-top: 42px;
+}
+
+.page-select {
+  padding: 14px 32px;
+  font-size: 14px;
+}
 
 .page-logo {
-  width: 400px;
+  width: 360px;
   margin-top: 20px;
 }
 
@@ -34,9 +42,6 @@ body {
   right: 10px;
 }
 
-.page-notes {
-  margin-top: 48px;
-}
 .page-notes > p {
   color: #fff;
   text-align: center;
@@ -52,7 +57,11 @@ body {
 }
 
 .page-calc {
-  padding: 14px 64px;
+  padding: 14px 68px;
+  font-size: 14px;
+}
+.page-novo-calculo{
+  padding: 14px 74px;
   font-size: 14px;
 }
 
@@ -68,6 +77,6 @@ body {
 
 @media (max-width: 580px) {
   .page-logo {
-    width: 250px;
+    width: 220px;
   }
 }
